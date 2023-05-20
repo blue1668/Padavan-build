@@ -91,7 +91,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=y" >> .config #zerotier ~1.3M
         echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=y" >> .config #aliddns
         echo "CONFIG_FIRMWARE_INCLUDE_SOCAT=y" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_TROJAN=n" >> .config #集成trojan执行文件(1.1M左右)
+        echo "CONFIG_FIRMWARE_INCLUDE_TROJAN=y" >> .config #集成trojan执行文件(1.1M左右)
         echo "CONFIG_FIRMWARE_INCLUDE_WIREGUARD=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_OPENSSL_EXE=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_OPENSSL_EC=n" >> .config
