@@ -22,11 +22,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@master
-    - uses: actions/setup-go@v4
-      with:
-        go-version: '1.20'
-        check-latest: true
-        cache-dependency-path: '**/go.sum'
     - name: Initialization environment
       env:
         DEBIAN_FRONTEND: noninteractive
