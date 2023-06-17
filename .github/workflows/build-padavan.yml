@@ -95,7 +95,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_WIREGUARD=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_OPENSSL_EXE=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_OPENSSL_EC=y" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_VLMCSD=n" >> .config #KMS
+        echo "CONFIG_FIRMWARE_INCLUDE_VLMCSD=y" >> .config #KMS
         else
         echo "CONFIG_FIRMWARE_INCLUDE_MENTOHUST=n" >> .config #MENTOHUST
         echo "CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT=n" >> .config #SCUTCLIENT
