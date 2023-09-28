@@ -97,8 +97,6 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_OPENSSL_EC=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_VLMCSD=y" >> .config #KMS
         echo "CONFIG_FIRMWARE_INCLUDE_FRPC=y" >> .config #内网穿透FRPC
-        CONFIG_FIRMWARE_INCLUDE_OC=y
-        CONFIG_FIRMWARE_MT7621_OC="0x362"
         else
         echo "CONFIG_FIRMWARE_INCLUDE_MENTOHUST=n" >> .config #MENTOHUST
         echo "CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT=n" >> .config #SCUTCLIENT
